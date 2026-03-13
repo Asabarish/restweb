@@ -1,0 +1,117 @@
+body{
+font-family: Georgia, "Times New Roman", serif;
+margin:0;
+background:#fff8f0;
+}
+
+/* HEADER */
+
+header{
+background:#8B0000;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-size:18px;
+}
+
+/* BANNER */
+
+.banner img{
+height:350px;
+object-fit:cover;
+}
+
+/* HOME SECTION */
+
+.home{
+text-align:center;
+padding:40px;
+}
+
+/* MENU */
+
+.menu{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+padding:30px;
+}
+
+.food{
+background:#ffcc99;
+padding:20px;
+text-align:center;
+font-weight:bold;
+border-radius:10px;
+}
+
+/* TEAM SECTION */
+
+.team{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+padding:30px;
+text-align:center;
+}
+
+.member{
+padding:15px;
+transition:0.3s;
+}
+
+.member:hover{
+transform:translateY(-8px);
+}
+
+.member img{
+width:150px;
+height:150px;
+border-radius:50%;
+transition:0.3s;
+}
+
+.member img:hover{
+transform:scale(1.1);
+box-shadow:0 6px 15px rgba(0,0,0,0.3);
+}
+
+.member h3{
+color:#8B0000;
+margin-top:10px;
+}
+
+/* CONTACT */
+
+.contact{
+text-align:center;
+font-size:18px;
+padding:40px;
+}
+
+/* TITLES */
+
+.title{
+text-align:center;
+font-size:36px;
+margin:30px 0;
+color:#8B0000;
+letter-spacing:1px;
+}
+
+/* FOOTER */
+
+footer{
+background-color: #8B0000;
+color:white;
+text-align:center;
+padding:10px;
+}
+
+

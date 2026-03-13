@@ -1,0 +1,69 @@
+body{
+font-family: Arial;
+background:#fff8f0;
+margin:0;
+}
+
+.title{
+text-align:center;
+margin:20px;
+}
+
+.menu{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:25px;
+padding:30px;
+}
+
+.food{
+width:220px;
+background:white;
+padding:15px;
+text-align:center;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+transition:0.3s;
+}
+
+.food img{
+width:100%;
+border-radius:8px;
+transition:0.3s;
+}
+
+.food p{
+font-weight:bold;
+}
+
+button{
+padding:8px 15px;
+border:none;
+background:#8B0000;
+color:white;
+border-radius:5px;
+cursor:pointer;
+margin-top:5px;
+}
+
+.food:hover{
+transform:translateY(-10px);
+box-shadow:0 10px 20px rgba(0,0,0,0.3);
+}
+
+.food:hover img{
+transform:scale(1.08);
+}
+
+button:hover{
+background:#ff4500;
+}
+
+footer{
+background:#8B0000;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:40px;
+}
