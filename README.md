@@ -30,7 +30,7 @@ Publish the website in Localhost.
 ## PROGRAM:
 ```
 index.html
-<!DOCTYPE html>
+
 <html>
 <head>
 <title>Spice Garden Restaurant</title>
@@ -68,7 +68,7 @@ index.html
 
 menu.html
 
-<!DOCTYPE html>
+
 <html>
 <head>
 <title>Menu</title>
@@ -178,7 +178,7 @@ menu.html
 
 admin.html
 
-<!DOCTYPE html>
+
 <html>
 <head>
 <title>Administration</title>
@@ -239,8 +239,6 @@ admin.html
 
 contact.html
 
-
-<!DOCTYPE html>
 <html>
 <head>
 <title>Contact Us</title>
@@ -343,7 +341,6 @@ margin-top:40px;
 }
 
 
-
 style.css
 
 
@@ -352,8 +349,6 @@ font-family: Georgia, "Times New Roman", serif;
 margin:0;
 background:#fff8f0;
 }
-
-
 
 header{
 background:#8B0000;
@@ -369,21 +364,16 @@ text-decoration:none;
 font-size:18px;
 }
 
-
-
 .banner img{
 height:350px;
 object-fit:cover;
 }
 
 
-
 .home{
 text-align:center;
 padding:40px;
 }
-
-
 
 .menu{
 display:grid;
@@ -399,7 +389,6 @@ text-align:center;
 font-weight:bold;
 border-radius:10px;
 }
-
 
 
 .team{
@@ -436,15 +425,11 @@ color:#8B0000;
 margin-top:10px;
 }
 
-
-
 .contact{
 text-align:center;
 font-size:18px;
 padding:40px;
 }
-
-
 
 .title{
 text-align:center;
@@ -454,14 +439,12 @@ color:#8B0000;
 letter-spacing:1px;
 }
 
-
 footer{
 background-color: #8B0000;
 color:white;
 text-align:center;
 padding:10px;
 }
-
 
 ```
 
