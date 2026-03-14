@@ -353,7 +353,7 @@ margin:0;
 background:#fff8f0;
 }
 
-/* HEADER */
+
 
 header{
 background:#8B0000;
@@ -369,21 +369,21 @@ text-decoration:none;
 font-size:18px;
 }
 
-/* BANNER */
+
 
 .banner img{
 height:350px;
 object-fit:cover;
 }
 
-/* HOME SECTION */
+
 
 .home{
 text-align:center;
 padding:40px;
 }
 
-/* MENU */
+
 
 .menu{
 display:grid;
@@ -400,7 +400,7 @@ font-weight:bold;
 border-radius:10px;
 }
 
-/* TEAM SECTION */
+
 
 .team{
 display:grid;
@@ -436,7 +436,7 @@ color:#8B0000;
 margin-top:10px;
 }
 
-/* CONTACT */
+
 
 .contact{
 text-align:center;
@@ -444,7 +444,7 @@ font-size:18px;
 padding:40px;
 }
 
-/* TITLES */
+
 
 .title{
 text-align:center;
@@ -454,7 +454,6 @@ color:#8B0000;
 letter-spacing:1px;
 }
 
-/* FOOTER */
 
 footer{
 background-color: #8B0000;
@@ -462,8 +461,6 @@ color:white;
 text-align:center;
 padding:10px;
 }
-
-
 
 
 ```
